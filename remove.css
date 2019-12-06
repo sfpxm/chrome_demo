@@ -3,6 +3,15 @@
   opacity: 0;
   visibility: hidden;
 }
+/* 固定边栏 */
+div#x-sidebar-left {
+  position: fixed;
+  top: 0;
+  width: 315px;
+  height: 790px;
+  overflow-y: scroll;
+}
+
 
 /* 知乎文章障碍去除 */
 .Pub-reader-app-header .reader-logo {
@@ -14,4 +23,19 @@
 
 .Pub-reader-app-header .reader-buttons {
   visibility: hidden;
+}
+
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsla(0, 0%, 44.3%, 0.2);
+  border-radius: 12px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #fefefe;
+  border-radius: 12px;
 }
