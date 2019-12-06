@@ -1,4 +1,17 @@
+/* 廖雪峰网站障碍去除 */
 #header{
   opacity: 0;
+  visibility: hidden;
+}
+
+/* 知乎文章障碍去除 */
+.Pub-reader-app-header .reader-logo {
+  visibility: hidden;
+}
+.Pub-reader-bottom-bar {
+  visibility: hidden;
+}
+
+.Pub-reader-app-header .reader-buttons {
   visibility: hidden;
 }

@@ -9,3 +9,6 @@
 
 5. content_script 可以知己注入到网页中
 
+
+
+// 官方文档 http://open.chrome.360.cn/extension_dev/content_scripts.html

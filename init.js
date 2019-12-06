@@ -1,4 +1,4 @@
-console.log('hello  init page')
+// console.log('hello  init page')
 
 // document.querySelector('body').style.background = 'red'
 // window.onload = (e)=> {
@@ -74,7 +74,9 @@ function removeAds() {
 if (document.readyState === 'loading') {  // Loading hasn't finished yet
   document.addEventListener('DOMContentLoaded', removeAds);
 } else {  // `DOMContentLoaded` has already fired
-  removeAds();
+  if(window.location.hostname !== "www.zhihu.com") {
+    removeAds();
+  }
 }
 
 // window.addEventListener('DOMContentLoaded', (e)=> {
