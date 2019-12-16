@@ -39,3 +39,11 @@ div#x-sidebar-left {
   background-color: #fefefe;
   border-radius: 12px;
 }
+
+/* 掘金 */
+.book-content__header .title {
+  visibility: hidden;
+}
+.book-summary__header {
+  visibility: hidden;
+}
