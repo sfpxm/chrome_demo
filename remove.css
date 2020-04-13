@@ -25,6 +25,10 @@ div#x-sidebar-left {
   visibility: hidden;
 }
 
+.Pub-web-reader .reader-container {
+  overflow: visible !important;
+}
+
 
 ::-webkit-scrollbar {
   width: 12px;
