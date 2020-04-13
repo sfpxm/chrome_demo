@@ -9,7 +9,7 @@
   ],
   "content_scripts": [
     {
-      "matches": ["https://www.liaoxuefeng.com/*", "https://www.zhihu.com/*"],
+      "matches": ["https://www.liaoxuefeng.com/*", "https://www.zhihu.com/*", "https://juejin.im/*"],
       "css": ["remove.css"],
       "js": ["init.js"]
     }
